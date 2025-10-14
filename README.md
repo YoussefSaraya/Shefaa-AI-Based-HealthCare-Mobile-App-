@@ -32,7 +32,7 @@ This project was developed as a **Final Year Graduation Project** at **Egypt-Jap
 - **Machine Learning**:
   - YOLOv8 (Ultralytics, PyTorch) – Fracture detection
   - MobileNetV2 – Wound classification
-  -  – Skin disease detection
+  - DenseNet-121 – Skin disease detection
   - Transformers (LLaMA-3 / BERT) – Mental health analysis
   - LangChain + Pinecone – Retrieval-Augmented Generation chatbot
 - **Deployment**: TensorFlow Lite (mobile inference), FastAPI endpoints
@@ -92,7 +92,6 @@ Set up Firebase Auth, Firestore rules, and Realtime Database.
 
 4. Run the app
 bash
-Copy code
 flutter run
 
 🧪 AI Models Usage
@@ -100,7 +99,7 @@ X-ray Fracture Detection: Upload radiograph → YOLOv8 detects fractures
 
 Wound Classifier: Upload wound image → MobileNetV2 outputs category
 
-Skin Disease Classifier: Upload skin photo → predicts class
+Skin Disease Classifier: Upload skin photo → DenseNet-121 predicts class
 
 Chatbot: Type query → RAG chatbot retrieves & generates medical response
 
@@ -133,4 +132,4 @@ This application is not a substitute for professional medical advice.
 All AI outputs are supportive tools and should be used under clinical supervision.
 
 📜 License
-MIT License
+MIT License.
